@@ -1,9 +1,10 @@
 from setuptools import setup
+long_description = open('README.md').read()
 setup(
     name = "NepseData",
     version = "1.0",
     description = "Every information and data in nepse daily trading are available",
-    long_description= "  { ticker : Stock Symbol },{ ltp : Last Transaction Price },{ change : Change in Points }, { change_in_percentage : Percentage change of particular stock }, { opens : Opening Price of Stock }, { high : Highest price of stock that day},{ low : Lowest price of stock that day},{ volume = Total transaction volume that day } ",
+    long_description=long_description,
     author = "Anup Timsina",
     packages = ['NepseData'],
     install_requires = ['requests','bs4']
