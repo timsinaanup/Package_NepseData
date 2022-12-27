@@ -56,8 +56,5 @@ try:
 
     def get_data(symbl):
         return LiveData(symbl).datum()
-        
 except:
     print("Cannot fetch data, Please check your internet connection or try again later")
-
-
