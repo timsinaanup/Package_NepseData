@@ -7,6 +7,6 @@ setup(
     long_description=long_description,
     author = "Anup Timsina",
     packages = ['NepseData'],
-    install_requires = ['requests','bs4']
+    install_requires = ['requests','bs4','lxml']
 )
     
